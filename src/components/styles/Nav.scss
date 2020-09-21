@@ -1,0 +1,23 @@
+.Nav {
+    display: inline-block;
+    &__menu {
+        list-style: none;
+        padding: 0;
+    }
+    &__item {
+        
+        padding: .5rem;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(75, 75, 75);
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    &__icon {
+        color: #3f51b5;
+        margin-right: .8rem;
+    }
+}
